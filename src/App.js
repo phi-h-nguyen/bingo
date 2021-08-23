@@ -5,6 +5,7 @@ import './bootstrap.min.css';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
+import { Beforeunload } from 'react-beforeunload';
 
 function shuffle(a) {
 	for (let i = a.length - 1; i > 0; i--) {
@@ -19,24 +20,24 @@ var vals = [
 	'Is lactose intolerant',
 	'Plays an instrument (what instrument?)',
 	'Has painted the fence (with what org?)',
-	'Is involved in Greek life (what org?)',
+	'Is involved or interested in Greek life (what org?)',
 	'Tested negative for corona',
-	'Learned a tiktok dance in 2020',
+	'Learned a tiktok dance over the summer',
 	'Has been to 5+ raves/music festivals',
 	'Was born outside of the US (where?)',
 	'Has worn colored contacts AND falsies',
-	'Started a new project or hobby in 2020',
+	'Started a new project or hobby over the summer',
 	'Dances often',
 	'First time on campus this semester',
 	'Plays a sport (what sport?)',
 	'Had a mushroom haircut as a kid',
 	'Watches anime or kdramas (favorite?)',
-	'Dyed your hair or got bangs in 2020',
+	'Dyed your hair or got bangs over the summer',
 	'Has their name mispronounced often',
-	'Baked/cooked something new in 2020',
+	'Baked/cooked something new over the summer',
 	'Has a pet (what pet?)',
-	'Read a book over break (which one?)',
-	'Nervous or sad about the spring semester (which part?)',
+	'Read a book over the summer (which one?)',
+	'Nervous or sad about the fall semester (which part?)',
 	'Has had bubble tea 3+ days in a row before',
 ];
 shuffle(vals);
@@ -110,12 +111,13 @@ export class App extends React.Component {
 	render() {
 		return (
 			<div className="App container text-center my-sm-3">
+				<Beforeunload onBeforeunload={() => 'You’ll lose your data!'} />
 				<div className="title">
 					<h1 className="asa">
 						<a href="http://www.cmuasa.org/" target="_blank" rel="noopener noreferrer" className="red">
 							ASA
 						</a>{' '}
-						Winter Welcome Bingo
+						Fall 2021 Orientation Bingo
 					</h1>
 					<h6 style={{"font-weight":"bold"}}>Try to find someone that's described by each box!</h6>
 					<h6 style={{"font-weight":"bold"}}>
