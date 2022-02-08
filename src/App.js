@@ -120,16 +120,7 @@ export class App extends React.Component {
 						Spring '22 Pitt x CMU ASA Bingo
 					</h1>
 					<h6 style={{"font-weight":"bold"}}>Try to find someone that's described by each box!</h6>
-					<h6 style={{"font-weight":"bold"}}>
-						Fill out the{' '}
-						<a href="http://www.cmuasa.org/checkin" className="red" target="_blank" rel="noopener noreferrer">
-							Check-in Form
-						</a>{' '}
-						for our{' '}
-						<a href="http://www.cmuasa.org/contact" className="red" target="_blank" rel="noopener noreferrer">
-							Contact Sheet!
-						</a>
-					</h6>
+					
 				</div>
 				<Container className="mb-3">
 					<BingoRow rowNum={0} />
