@@ -19,25 +19,25 @@ var vals = [
 	'Has an awful sleeping schedule',
 	'Is lactose intolerant',
 	'Plays an instrument (what instrument?)',
-	'Has painted the fence (with what org?)',
+	'Has been inside the Cathedral of Learning (Cathy)',
 	'Is involved or interested in Greek life (what org?)',
 	'Tested negative for corona',
-	'Learned a tiktok dance over the summer',
+	'Is fluent in a second language (what language?)',
 	'Has been to 5+ raves/music festivals',
 	'Was born outside of the US (where?)',
 	'Has worn colored contacts AND falsies',
-	'Started a new project or hobby over the summer',
+	'Started a new project or hobby over the pandemic',
 	'Dances often',
-	'First time on campus this semester',
+	'Owns a small dog (what breed?)',
 	'Plays a sport (what sport?)',
 	'Had a mushroom haircut as a kid',
 	'Watches anime or kdramas (favorite?)',
-	'Dyed your hair or got bangs over the summer',
+	'Dyed your hair or got bangs over the pandemic',
 	'Has their name mispronounced often',
-	'Baked/cooked something new over the summer',
+	'Cooked something this Lunar New Year',
 	'Has a pet (what pet?)',
-	'Read a book over the summer (which one?)',
-	'Nervous or sad about the fall semester (which part?)',
+	'Read a book over the pandemic (which one?)',
+	'Cannot handle spicy food',
 	'Has had bubble tea 3+ days in a row before',
 ];
 shuffle(vals);
@@ -117,7 +117,7 @@ export class App extends React.Component {
 						<a href="http://www.cmuasa.org/" target="_blank" rel="noopener noreferrer" className="red">
 							ASA
 						</a>{' '}
-						Fall 2021 Orientation Bingo
+						Spring '22 Pitt x CMU ASA Bingo
 					</h1>
 					<h6 style={{"font-weight":"bold"}}>Try to find someone that's described by each box!</h6>
 					<h6 style={{"font-weight":"bold"}}>
